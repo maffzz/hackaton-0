@@ -24,6 +24,8 @@ def calculate(entrada) -> float:
     term2 = int(parte2)
     if operador == "+":
         return term1+term2
+    elif operador == "-":
+        return term1-term2
 
 
 
