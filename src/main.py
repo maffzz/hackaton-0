@@ -29,7 +29,10 @@ def calculate(entrada) -> float:
     elif operador == "*":
         return term1*term2
 
-
-
+    elif operador == "/":
+        if term2 == 0:
+            return "Error"
+        else:
+            return term1 / term2
 
     pass
