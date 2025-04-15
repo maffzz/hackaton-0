@@ -34,5 +34,4 @@ def calculate(entrada) -> float:
             return "Error"
         else:
             return term1 / term2
-
     pass
