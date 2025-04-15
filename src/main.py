@@ -26,9 +26,8 @@ def calculate(entrada) -> float:
         return term1+term2
     elif operador == "-":
         return term1-term2
-
-
-
+    elif operador == "*":
+        return term1*term2
 
 
 
